@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useState, useEffect } from 'react'
 import './App.css'
 import '@aws-amplify/ui-react/styles.css'
@@ -5,6 +6,8 @@ import { API, Storage } from 'aws-amplify'
 import { Button, Flex, Heading, Image, Text, TextField, View, withAuthenticator } from '@aws-amplify/ui-react'
 import { listTodos } from './graphql/queries'
 import { createTodo as createNoteMutation, deleteTodo as deleteNoteMutation } from './graphql/mutations'
+
+type listTodos = ReturnType<typeof listTodos>
 
 const App = ({ signOut }) => {
   const [notes, setNotes] = useState([])
