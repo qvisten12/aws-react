@@ -1,0 +1,14 @@
+{
+  "resourceName": "todosStorage",
+  "policyUUID": "68f0bd3e",
+  "bucketName": "awsreactdd0036c6428b440eac62cb621dc0ee25",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

@@ -14,6 +14,9 @@
     "categories": {
       "auth": {
         "awsreact9c0fa0fe": {}
+      },
+      "api": {
+        "awsreact": {}
       }
     }
   }
