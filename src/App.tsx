@@ -7,8 +7,6 @@ import { Button, Flex, Heading, Image, Text, TextField, View, withAuthenticator 
 import { listTodos } from './graphql/queries'
 import { createTodo as createNoteMutation, deleteTodo as deleteNoteMutation } from './graphql/mutations'
 
-type listTodos = ReturnType<typeof listTodos>
-
 const App = ({ signOut }) => {
   const [notes, setNotes] = useState([])
 
