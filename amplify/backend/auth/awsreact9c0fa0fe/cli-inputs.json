@@ -1,0 +1,45 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "awsreact9c0fa0fe_identitypool_9c0fa0fe",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "awsrea9c0fa0fe",
+    "userPoolName": "awsreact9c0fa0fe_userpool_9c0fa0fe",
+    "autoVerifiedAttributes": [
+      "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+      "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": [
+      "email"
+    ],
+    "aliasAttributes": [],
+    "userpoolClientGenerateSecret": false,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [
+      "email"
+    ],
+    "userpoolClientReadAttributes": [
+      "email"
+    ],
+    "userpoolClientLambdaRole": "awsrea9c0fa0fe_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "sharedId": "9c0fa0fe",
+    "resourceName": "awsreact9c0fa0fe",
+    "authSelections": "identityPoolAndUserPool",
+    "useDefault": "default",
+    "userPoolGroupList": [],
+    "serviceName": "Cognito",
+    "usernameCaseSensitive": false,
+    "useEnabledMfas": true
+  }
+}
