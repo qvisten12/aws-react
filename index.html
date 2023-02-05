@@ -10,7 +10,9 @@
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
     <script>
-      if (global === undefined) {
+      const isBrowser = () => typeof window !== 'undefined'
+      const isGlobal = () => typeof global !== 'undefined'
+      if (!isGlobal() && isBrowser()) {
         var global = window
       }
     </script>
